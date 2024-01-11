@@ -1,1 +1,23 @@
+.container {
+  border: 5px solid black;
+  width: 960px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
+.white {
+  height: 120px;
+  width: 120px;
+  background-color: rgb(175, 173, 173);
+  font-size: 100px;
+  text-align: center;
+}
+
+.black {
+  height: 120px;
+  width: 120px;
+  background-color: white;
+  font-size: 100px;
+  text-align: center;
+}
